@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".NewsDetailActivity">
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="News Land"
+       android:textStyle="bold"
+       android:textColor="@color/yello"
+       android:layout_marginTop="5dp"
+       android:padding="3dp"
+       android:textSize="30sp"
+       android:id="@+id/app_title"
+       android:fontFamily="sans-serif-smallcaps"
+       android:gravity="center"
+       />
+   <WebView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/web_view"
+       android:layout_below="@+id/app_title"
+       android:padding="4dp"
+       />
+</RelativeLayout>

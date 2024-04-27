@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+
+    </group>
+    <item android:title="International:">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_bbc"
+                    android:icon="@drawable/baseline_newspaper_24"
+                    android:title="BBC" />
+                <item
+                    android:id="@+id/nav_cnn"
+                    android:icon="@drawable/baseline_newspaper_24"
+                    android:title="CNN" />
+                <item
+                    android:id="@+id/nav_fox"
+                    android:icon="@drawable/baseline_newspaper_24"
+                    android:title="Fox News" />
+
+
+            </group>
+        </menu>
+    </item>
+
+
+
+    <item android:title="National">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_prothomalo"
+                    android:icon="@drawable/baseline_newspaper_24"
+                    android:title="ProthomAlo" />
+                <item
+                    android:id="@+id/nav_thedailystar"
+                    android:icon="@drawable/baseline_newspaper_24"
+                    android:title="TheDailyStar Bangla" />
+
+                <item
+                    android:id="@+id/nav_protidin"
+                    android:icon="@drawable/baseline_newspaper_24"
+                    android:title="Bangladesh Protidin" />
+
+            </group>
+        </menu>
+    </item>
+    <item android:title="Communications">
+        <menu>
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/item2"
+                android:icon="@drawable/baseline_share_24"
+                android:title="Share" />
+            <item
+                android:id="@+id/item3"
+                android:icon="@drawable/baseline_category_24"
+                android:title="Rate us" />
+        </group>
+        </menu>
+    </item>
+
+
+
+</menu>

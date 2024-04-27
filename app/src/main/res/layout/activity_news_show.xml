@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsShowActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="News Land"
+        android:textStyle="bold"
+        android:textColor="@color/yello"
+        android:layout_marginTop="5dp"
+        android:padding="3dp"
+        android:textSize="30sp"
+        android:id="@+id/app_title"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        />
+    <RelativeLayout
+        android:background="@color/black2"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_below="@+id/app_title"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/article_image_view"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/artile_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/article_image_view"
+            android:layout_marginBottom="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:maxLines="2"
+            android:padding="3dp"
+            android:text="New Heading"
+            android:textColor="@color/yello"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/artile_source"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/artile_title"
+            android:layout_marginBottom="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:maxLines="3"
+            android:padding="3dp"
+            android:text="Sub Heading"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
